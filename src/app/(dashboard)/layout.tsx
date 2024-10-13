@@ -1,5 +1,6 @@
 import Menu from "@/components/Menu";
-import Navbar from "@/components/NavBar";
+import Navbar from "@/components/Navbar";
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Image from "next/image";
@@ -18,7 +19,7 @@ export default function DashboardLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="h-screen flex">
+    <div className="flex">
       {/* LEFT */}
       <div className="w-[14%] md:w-[8%] lg:w-[16%] xl:w-[14%] p-4">
         <Link
